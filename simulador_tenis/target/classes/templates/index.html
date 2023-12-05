@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Tenis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Simulador de Tenis</h1>
+
+<form id="simulacionForm">
+    <label for="jugador1">Jugador 1:</label>
+    <input type="text" id="jugador1" name="jugador1" required>
+
+    <label for="jugador2">Jugador 2:</label>
+    <input type="text" id="jugador2" name="jugador2" required>
+
+    <label for="sets">Sets:</label>
+    <input type="number" id="sets" name="sets" required>
+
+    <label for="probabilidadJugador1">Probabilidad Jugador 1 (%):</label>
+    <input type="number" id="probabilidadJugador1" name="probabilidadJugador1" required>
+
+    <label for="probabilidadJugador2">Probabilidad Jugador 2 (%):</label>
+    <input type="number" id="probabilidadJugador2" name="probabilidadJugador2" required>
+
+    <button type="submit">Simular Partido</button>
+</form>
+
+<div id="resultado"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
